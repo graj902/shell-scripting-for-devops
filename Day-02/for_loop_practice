@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# this script for creating the directory using the loop "
+
+echo "crating the 5 directory"
+
+for ((num=1; num<=5; num++))
+
+do
+
+# creating the direcorty
+echo "crating the directory with demo$num"
+
+mkdir  demo$num
+
+done
+
+echo "5 folders created successfully"
+ls
+
+
